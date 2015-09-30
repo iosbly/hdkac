@@ -1,0 +1,11 @@
+body{
+	background-color:#ecf0f1;
+}
+
+#header{
+	background-image: logo.jpg;
+	height:180px;
+	width:454px;
+	margin: auto;
+    padding: 10px;
+}

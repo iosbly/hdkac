@@ -1,0 +1,13 @@
+body
+{
+background-color:#ecf0f1;
+height:180px;
+}
+
+#header1
+{
+background-image: url('http://localhost/hdkac/logo.jpg');
+height:180px;
+width:454px;
+margin: auto;
+padding: 10px;}
