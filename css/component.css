@@ -10,7 +10,7 @@
 	font-style: normal;
 }
 
-.recherche {
+.sb-search {
 	position: relative;
 	margin-top: 10px;
 	width: 0%;
@@ -24,7 +24,7 @@
 	-webkit-backface-visibility: hidden;
 }
 
-.recherche-input {
+.sb-search-input {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -41,24 +41,24 @@
 	color: #777;
 }
 
-.recherche-input::-webkit-input-placeholder {
+.sb-search-input::-webkit-input-placeholder {
 	color: #95a5a6;
 }
 
-.recherche-input:-moz-placeholder {
+.sb-search-input:-moz-placeholder {
 	color: #95a5a6;
 }
 
-.recherche-input::-moz-placeholder {
+.sb-search-input::-moz-placeholder {
 	color: #95a5a6;
 }
 
-.recherche-input:-ms-input-placeholder {
+.sb-search-input:-ms-input-placeholder {
 	color: ;
 }
 
-.icon-search,
-.recherche-submit  {
+.sb-icon-search,
+.sb-search-submit  {
 	width: 60px;
 	height: 60px;
 	display: block;
@@ -72,7 +72,7 @@
 	cursor: pointer;
 }
 
-.recherche-submit {
+.sb-search-submit {
 	background: #fff; /* IE needs this */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
@@ -83,7 +83,7 @@
 	z-index: -1;
 }
 
-.icon-search {
+.sb-icon-search {
 	color: #fff;
 	background: #95a5a6;
 	z-index: 90;
@@ -97,24 +97,24 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.icon-search:before {
+.sb-icon-search:before {
 	content: "\e000";
 }
 
 /* Open state */
-.recherche.recherche-open,
-.no-js .recherche {
+.sb-search.sb-search-open,
+.no-js .sb-search {
 	width: 100%;
 }
 
-.recherche.recherche-open .icon-search,
-.no-js .recherche .icon-search {
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
 	background: ##95a5a6;
 	color: #fff;
 	z-index: 11;
 }
 
-.recherche.recherche-open .recherche-submit,
-.no-js .recherche .recherche-submit {
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
 	z-index: 90;
 }
